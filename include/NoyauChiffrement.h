@@ -1,6 +1,6 @@
-#pragma once
-#include <string>
-#include <vector>
+#pragma once // inclut ce fichier une seule fois pour éviter les doublons
+#include <string> // Pour manipuler les chaînes de caractères
+#include <vector> // Pour stocker les données lues depuis les fichiers
 #include <fstream> // Pour lire et écrire dans les fichiers
 
 // Classe qui gère le chiffrement et le déchiffrement de fichiers
